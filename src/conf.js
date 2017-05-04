@@ -5,7 +5,7 @@ exports.config = {
   chromeDriver: '../node_modules/chromedriver/bin/chromedriver',
   specs: ['spec.js', 'spec2.js'],
   capabilities: {
-    browserName: 'chrome'
+    browserName: 'firefox'
   },
   jasmineNodeOpts: {
 	showColors: true,
